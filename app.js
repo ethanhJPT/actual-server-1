@@ -5,5 +5,5 @@ runMigrations()
   .then(run)
   .catch((err) => {
     console.log('Error starting app:', err);
-    process.exit(1);
+    process.exit(1); 
   });
